@@ -41,7 +41,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('ED-Tech server running')
+    res.send('Running ED-Tech server running')
 });
 
 app.listen(port, () => {
